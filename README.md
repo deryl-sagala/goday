@@ -1,5 +1,3 @@
-Sure! Below is a medium-complexity README in Markdown format to explain the `goday` package functionality and how to use it.
-
 # goday - A Go package for Date Manipulation and Formatting
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/deryl-sagala/goday)](https://goreportcard.com/report/github.com/deryl-sagala/goday)
