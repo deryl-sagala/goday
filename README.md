@@ -69,6 +69,6 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This package is distributed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This package is distributed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for more information.
 
 Happy Date Manipulation with `goday` in Go!
