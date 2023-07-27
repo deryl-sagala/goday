@@ -1,29 +1,29 @@
-Sure! Below is a medium-complexity README in Markdown format to explain the `dayjs` package functionality and how to use it.
+Sure! Below is a medium-complexity README in Markdown format to explain the `goday` package functionality and how to use it.
 
-# dayjs - A Go package for Date Manipulation and Formatting
+# goday - A Go package for Date Manipulation and Formatting
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/deryl-sagala/goday)](https://goreportcard.com/report/github.com/deryl-sagala/goday)
 
-The `dayjs` package is a Date and Time manipulation library for Go (Golang) inspired by Day.js, a popular JavaScript library for date manipulation. This package provides functionalities to parse, format, manipulate, and query dates in a simple and intuitive way, similar to Day.js.
+The `goday` package is a Date and Time manipulation library for Go (Golang) inspired by Day.js, a popular JavaScript library for date manipulation. This package provides functionalities to parse, format, manipulate, and query dates in a simple and intuitive way, similar to Day.js.
 
 ## Installation
 
 ```bash
-go get github.com/your-username/go-dayjs/dayjs
+go get github.com/your-username/go-goday/goday
 ```
 
 ## Usage
 
-Here's an overview of the main functionalities provided by the `dayjs` package:
+Here's an overview of the main functionalities provided by the `goday` package:
 
 ### Parsing Dates
 
-You can parse a date string into a `dayjs.Dayjs` instance using the `dayjs.Parse()` function.
+You can parse a date string into a `goday.goday` instance using the `goday.Parse()` function.
 
 ```go
-import "github.com/your-username/go-dayjs/dayjs"
+import "github.com/your-username/go-goday/goday"
 
-date, err := dayjs.Parse("2018-08-08")
+date, err := goday.Parse("2018-08-08")
 if err != nil {
     // Handle parsing error
 }
@@ -31,7 +31,7 @@ if err != nil {
 
 ### Formatting Dates
 
-Use the `dayjs.Format()` function to format dates into custom layouts.
+Use the `goday.Format()` function to format dates into custom layouts.
 
 ```go
 formattedDate := date.Format("{YYYY}-{MM}-{DD} {HH:mm:ss}")
@@ -39,7 +39,7 @@ formattedDate := date.Format("{YYYY}-{MM}-{DD} {HH:mm:ss}")
 
 ### Get & Set Date Components
 
-The `dayjs.Get()` and `dayjs.Set()` functions allow you to retrieve or set specific date components.
+The `goday.Get()` and `goday.Set()` functions allow you to retrieve or set specific date components.
 
 ```go
 year := date.Get("year")
@@ -57,7 +57,7 @@ threeDaysAgo := date.Subtract(3, "day")
 
 ### Date Querying
 
-Use `dayjs.IsBefore()`, `dayjs.IsAfter()`, and other functions to query dates.
+Use `goday.IsBefore()`, `goday.IsAfter()`, and other functions to query dates.
 
 ```go
 isBefore := date1.IsBefore(date2)
@@ -73,4 +73,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 This package is distributed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-Happy Date Manipulation with `dayjs` in Go!
+Happy Date Manipulation with `goday` in Go!
