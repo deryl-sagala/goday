@@ -1,6 +1,6 @@
 # goday - A Go package for Date Manipulation and Formatting
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/deryl-sagala/goday)](https://goreportcard.com/report/github.com/deryl-sagala/goday)[![Go Reference](https://pkg.go.dev/badge/github.com/deryl-sagala/goday.svg)](pkg.go.dev/github.com/deryl-sagala/goday)
+[![Go Report Card](https://goreportcard.com/badge/github.com/deryl-sagala/goday)](https://goreportcard.com/report/github.com/deryl-sagala/goday)[![Go Reference](https://pkg.go.dev/badge/github.com/deryl-sagala/goday.svg)](https://pkg.go.dev/github.com/deryl-sagala/goday)
 
 The `goday` package is a Date and Time manipulation library for Go (Golang) inspired by Day.js, a popular JavaScript library for date manipulation. This package provides functionalities to parse, format, manipulate, and query dates in a simple and intuitive way, similar to Day.js.
 
