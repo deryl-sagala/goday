@@ -1,27 +1,27 @@
-# go-day - A Go package for Date Manipulation and Formatting
+# goday - A Go package for Date Manipulation and Formatting
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/deryl-sagala/go-day)](https://goreportcard.com/report/github.com/deryl-sagala/go-day)
+[![Go Report Card](https://goreportcard.com/badge/github.com/deryl-sagala/goday)](https://goreportcard.com/report/github.com/deryl-sagala/goday)
 
-The `go-day` package is a Date and Time manipulation library for Go (Golang) inspired by Day.js, a popular JavaScript library for date manipulation. This package provides functionalities to parse, format, manipulate, and query dates in a simple and intuitive way, similar to Day.js.
+The `goday` package is a Date and Time manipulation library for Go (Golang) inspired by Day.js, a popular JavaScript library for date manipulation. This package provides functionalities to parse, format, manipulate, and query dates in a simple and intuitive way, similar to Day.js.
 
 ## Installation
 
 ```bash
-go get github.com/deryl-sagala/go-day
+go get github.com/deryl-sagala/goday
 ```
 
 ## Usage
 
-Here's an overview of the main functionalities provided by the `go-day` package:
+Here's an overview of the main functionalities provided by the `goday` package:
 
 ### Parsing Dates
 
-You can parse a date string into a `go-day` instance using the `goday.Parse()` function.
+You can parse a date string into a `goday` instance using the `goday.Parse()` function.
 
 ```go
-import "github.com/deryl-sagala/go-day"
+import "github.com/deryl-sagala/goday"
 
-date, err := go-day.Parse("2018-08-08")
+date, err := goday.Parse("2018-08-08")
 if err != nil {
     // Handle parsing error
 }
@@ -71,4 +71,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 This package is distributed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for more information.
 
-Happy Date Manipulation with `go-day` in Go!
+Happy Date Manipulation with `goday` in Go!
