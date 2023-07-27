@@ -2,7 +2,7 @@ Sure! Below is a medium-complexity README in Markdown format to explain the `day
 
 # dayjs - A Go package for Date Manipulation and Formatting
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/your-username/go-dayjs)](https://goreportcard.com/report/github.com/your-username/go-dayjs)
+[![Go Report Card](https://goreportcard.com/badge/github.com/deryl-sagala/goday)](https://goreportcard.com/report/github.com/deryl-sagala/goday)
 
 The `dayjs` package is a Date and Time manipulation library for Go (Golang) inspired by Day.js, a popular JavaScript library for date manipulation. This package provides functionalities to parse, format, manipulate, and query dates in a simple and intuitive way, similar to Day.js.
 
